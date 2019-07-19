@@ -5,28 +5,28 @@ const SHOP_DATA =[
       routeName: 'hats',
       items: [
         {
-          id: 1,
-          name: 'Brown Brim',
-          imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
-          price: 25
+          id : 1 , 
+          nom : 'Brown Brim' , 
+          imageUrl : 'https://i.ibb.co/ZYW3VTp/brown-brim.png' , 
+          prix : 25 
         },
         {
-          id: 2,
-          name: 'Blue Beanie',
-          imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
-          price: 18
+          id : 2 , 
+          nom : 'Blue Beanie' , 
+          imageUrl : 'https://i.ibb.co/ypkgK0X/blue-beanie.png' , 
+          prix : 18 
         },
         {
-          id: 3,
-          name: 'Brown Cowboy',
-          imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
-          price: 35
+          id : 3 , 
+          nom : 'Brown Cowboy' , 
+          imageUrl : 'https://i.ibb.co/QdJwgmp/brown-cowboy.png' , 
+          prix : 35 
         },
         {
-          id: 4,
-          name: 'Grey Brim',
-          imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
-          price: 25
+          identifiant : 4 , 
+          nom : 'Grey Brim' , 
+          imageUrl : 'https://i.ibb.co/RjBLWxB/grey-brim.png' , 
+          prix : 25 
         },
         {
           id: 5,
