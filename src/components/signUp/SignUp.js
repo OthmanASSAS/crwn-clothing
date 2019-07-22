@@ -6,7 +6,6 @@ import CustomButton from '../customButtom/CustomButton';
 import { auth, createUserProfileDocument } from '../../firebase/firebase.utils';
 
 import './signUp.scss';
-import { updateExpression } from '@babel/types';
 
 class SignUp extends Component {
     constructor() {
