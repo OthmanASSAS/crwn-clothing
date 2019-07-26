@@ -18,7 +18,6 @@ import { setCurrentUser } from './redux/user/userActions';
 import {selectCurrentUser} from './redux/user/userSelectors';
 
 
-
 class App extends React.Component {
 
 
@@ -40,9 +39,10 @@ class App extends React.Component {
           })
         });
 
-      } else {
+      } 
         setCurrentUser(userAuth)
-      }
+       
+      
     });
   }
 
@@ -74,7 +74,7 @@ class App extends React.Component {
 }
 
 const mapStateToProps = createStructuredSelector ({
-  currentUser: selectCurrentUser
+  currentUser: selectCurrentUser,
 })
 
 
